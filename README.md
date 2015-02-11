@@ -31,16 +31,6 @@ sequelize model:create --name User --attributes "username:string"
 sequelize model:create --name Task --attributes "title:string, completed:boolean"
 ```
 
-### execute app with sequelize
-
-```
-cp ~/projects/tests/sqltest/bin/www ~/projects/tests/sqldemo/bin/www
-// edit /bin/www to run on new port.
-cp -R ~/projects/tests/sqltest/views ~/projects/tests/sqldemo
-cp -R ~/projects/tests/sqltest/routes ~/projects/tests/sqldemo
-cp -R ~/projects/tests/sqltest/public ~/projects/tests/sqldemo
-```
-
 ### migrations
 
 mention how migrations are automatically added when creating new models via this CLI
