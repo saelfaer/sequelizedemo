@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+            "follow_symlinks": true,
+            "path": "./../sqldemo"
+        },
+        {
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}
